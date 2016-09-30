@@ -1,3 +1,85 @@
 @charset "utf-8";
 /* CSS Document */
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width:1200px){
+body{
+	
+}
+ul{
+	list-style-type:none;
+}
+/* ------------ WRAPPER ------------*/
+#wrapper{
+	width:1000px;
+	margin:10px auto;
+}
+/* ------------ HEADER ------------*/
+header{
+	background:grey;	
+	width: 100px;
+    height: 100px;
+}
+/* ------------ MENUBAR ------------*/
+menu .nav-pills>li>a{
+	background-color: #C6002A !important;
+    width: 100px;
+	color:white;
+	margin: 10px 0px;
+}
+menu{
+	padding:0;
+	position: fixed;	
+}
+menu .nav>li>a:focus, menu .nav>li>a:hover{
+	background-color: #B0B0B0 !important;
+}
+menu .nav-pills>li.active>a, menu .nav-pills>li.active>a:focus, menu .nav-pills>li.active>a:hover{
+    background-color: #C6002A !important;		
+}
+/* ------------ CONTENT ------------*/
+.container {
+	margin-top:10px;
+    width: 100% !important;
+}
 
+/* ------------ BARS ------------*/
+
+.col-md-2 td {
+    padding: 10px;
+}
+table.period {
+    margin: 12px 0px;
+}
+table.period td {
+    padding-right: 90px;
+    padding-left: 8px;
+    border: lightgrey solid 1px;
+}
+.progress-label {
+    float: left;
+}
+.progress-bar.empty {
+    background: none;
+}
+/* ------------ LOCATION ------------*/
+#parallax {
+    /* The image used */
+    background-image: url("img/maps.png");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* ------------ FOOTER ------------*/
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
