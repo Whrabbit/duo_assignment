@@ -86,7 +86,12 @@ section#locaties {
     background: #fff;
 	margin:0 auto;
 }
-
+section#contact {
+    padding-top: 120px;
+    background: #fff;
+	width:1000px;
+	margin:0 auto;
+}
 /* ------------ BARS ------------*/
 
 .col-md-2 td {
@@ -146,6 +151,15 @@ div#leerjaar4{
     background-size: contain;
 }
 /* ------------ FOOTER ------------*/
+footer{
+	text-align:center;	
+	background:black;
+	color:white;
+	padding:10px 0px;
+}
+
+
+
 }
 
 /* Medium devices (desktops, 992px and up) */
