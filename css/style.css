@@ -109,9 +109,7 @@ ul.nav-tabs{
 	margin-left: 190px;
 
 }
-.nav>li>a.tabs{
-	margin:0;	
-}
+
 .empty{
 	margin:0;
 	border:solid 1px #ccc;	
