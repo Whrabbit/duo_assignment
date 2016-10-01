@@ -6,9 +6,18 @@
 <file name="style.css" server="duo.whrabbit.com" local="131197354469638515" remote="131197354800000000" Dst="2" />
 <file name="index.html" server="159.253.0.77" local="131197353717767812" remote="131197355400000000" Dst="2" />
 <file name="style.css" server="159.253.0.77" local="131197354469638515" remote="131197355400000000" Dst="2" />
-<file name="index.html" server="159.253.0.77/public_html/" local="131197426203121538" remote="131197426200000000" Dst="2" />
-<file name="style.css" server="159.253.0.77/public_html/" local="131197425552936076" remote="131197425600000000" Dst="2" />
+<file name="index.html" server="159.253.0.77/public_html/" local="131197944018417512" remote="131197944000000000" Dst="2" />
+<file name="style.css" server="159.253.0.77/public_html/" local="131197943416532648" remote="131197943400000000" Dst="2" />
 <file name="index.html" server="159.253.0.77//public_html/" local="131197353717767812" remote="131197356000000000" Dst="2" />
 <file name="style.css" server="159.253.0.77//public_html/" local="131197354469638515" remote="131197356000000000" Dst="2" />
 <file name="script.js" server="159.253.0.77/public_html/" local="131197414068565838" remote="131197413600000000" Dst="2" />
+<file name="style.css" server="159.253.0.77/domains/duo.whrabbit.com/public_html/" local="131198087058768550" remote="131198086800000000" Dst="2" />
+<file name="index.html" server="159.253.0.77/domains/duo.whrabbit.com/public_html/" local="131198087338099680" remote="131198086800000000" Dst="2" />
+<file name="script.js" server="159.253.0.77/domains/duo.whrabbit.com/public_html/" local="131197949921557512" remote="131197426200000000" Dst="2" />
+<file name="test.html" server="159.253.0.77/domains/duo.whrabbit.com/public_html/" local="131198078238039605" remote="131198077800000000" Dst="2" />
+<file name="scroll.html" server="159.253.0.77/domains/duo.whrabbit.com/public_html/" local="131198085569201631" remote="131198085000000000" Dst="2" />
+<file name="backup.css" server="159.253.0.77/domains/duo.whrabbit.com/public_html/" local="131197968846690196" remote="131197968600000000" Dst="2" />
+<file name="menu.html" server="159.253.0.77/domains/duo.whrabbit.com/public_html/" local="131198006688349348" remote="131198006400000000" Dst="2" />
+<file name="test2.html" server="159.253.0.77/domains/duo.whrabbit.com/public_html/" local="131198075995489954" remote="131198076000000000" Dst="2" />
+<file name="parallax.js" server="159.253.0.77/domains/duo.whrabbit.com/public_html/" local="130985629860000000" remote="131198069400000000" Dst="2" />
 </dwsync>
