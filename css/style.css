@@ -38,6 +38,7 @@ header{
     width: 100px;
 	color:white !important;
 	text-align:center;
+    padding: 10px 0px 10px 0px !important;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
 	background-image:none;
@@ -51,8 +52,9 @@ nav.navbar.navbar-default.navbar-fixed-top{
 
 .navbar-default .navbar-nav>li>a {
     color: #777;
-    padding-top: 45px;
+    padding-top: 45px !important;
     font-size: 20px;
+    height: 110px;
 }
 /* ------------ CONTENT ------------*/
 .container_header {
@@ -64,23 +66,23 @@ nav.navbar.navbar-default.navbar-fixed-top{
 }
 
 .container{
-	margin-top: 10px;
     width: 100% !important;	
 }
 section#home {
-    padding-top: 150px;
+    padding-top: 120px;
     background: #fff;
 	width:1000px;
 	margin:0 auto;
 }
 section#vakken {
-    padding-top: 150px;
+    padding-top: 100px;
     background: #fff;
 	width:1000px;
 	margin:0 auto;
+	height:100%;
 }
 section#locaties {
-    padding-top: 150px;
+    padding-top: 120px;
     background: #fff;
 	margin:0 auto;
 }
@@ -91,10 +93,10 @@ section#locaties {
     padding: 10px;
 }
 table.period {
-    margin: 12px 0px;
+    margin: 10px 0px;
 }
 table.period td {
-    padding-right: 125px;
+    padding-right: 45px;
     padding-left: 6px;
     border: lightgrey solid 1px;
 }
@@ -103,10 +105,11 @@ table.period td {
 }
 .progress-bar.empty {
     background: none;
+	border: none;
+	box-shadow: none;
 }
 ul.nav-tabs{
 	border:none;
-	margin-left: 190px;
 
 }
 
@@ -124,6 +127,9 @@ ul.nav-tabs{
     background-color: #980121 !important;
     border: 1px solid #ddd;
     border-bottom-color: transparent;
+}
+div#leerjaar4{
+    width: 996px;	
 }
 /* ------------ LOCATION ------------*/
 #parallax {
