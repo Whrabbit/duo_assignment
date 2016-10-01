@@ -35,6 +35,12 @@ header{
 	float:right;
     padding: 5px 0;
 }
+.container_header {
+    margin-right: auto;
+    margin-left: auto;
+	width: 1000px;
+}
+
 /* ------------ MENUBAR ------------*/
 .nav>li>a{
 	background-color: #C6002A !important;
@@ -60,11 +66,6 @@ nav.navbar.navbar-default.navbar-fixed-top{
     height: 110px;
 }
 /* ------------ CONTENT ------------*/
-.container_header {
-    margin-right: auto;
-    margin-left: auto;
-	width: 1000px;
-}
 
 .container{
     width: 100% !important;	
@@ -165,10 +166,48 @@ footer{
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
+@media (min-width:768px) and (max-width:1199px) { 
+/* ------------ HEADER ------------*/
 
-/* Small devices (tablets, 768px and up) */
-@media(min-width:767px) {
+.navbar navbar-default img, .navbar-fixed-top img{
+	float:right;
+    padding: 5px 0;
+}
+.container_header {
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+header{
+
+	margin:10px auto;
+}
+
+/* ------------ MENUBAR ------------*/
+.nav>li>a{
+	background-color: #C6002A !important;
+    width: 100px;
+	color:white !important;
+	text-align:center;
+    padding: 10px 0px 10px 0px !important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
+	background-image:none;
+	background-color: #980121 !important;
+    text-align:center;
+	height: 110px;
+}
+nav.navbar.navbar-default.navbar-fixed-top{
+	background: #C6002A !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+    padding-top: 45px !important;
+    font-size: 20px;
+    height: 110px;
+}
     .navbar {
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -178,4 +217,69 @@ footer{
     .top-nav-collapse {
         padding: 0;
     }
+	.navbar-header.page-scroll {
+    background-color: #C6002A;
+} 
+}
+
+/* Small devices (tablets, 768px and up) */
+@media(max-width:767px) {
+/* ------------ HEADER ------------*/
+.container_header {
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+header{
+
+	margin:10px auto;
+}
+/* ------------ MENUBAR ------------*/
+.nav>li>a{
+	background-color: #C6002A !important;
+	color:white !important;
+	text-align:center;
+    padding: 10px 0px 10px 0px !important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
+	background-image:none;
+	background-color: #980121 !important;
+    text-align:center;
+}
+nav.navbar.navbar-default.navbar-fixed-top{
+	background: #C6002A !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+    font-size: 15px;
+}
+    .navbar {
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+	.navbar-header.page-scroll {
+    background-color: #C6002A;
+} 
+    .navbar {
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+	.navbar-header.page-scroll {
+    background-color: #C6002A;
+} 
+.navbar navbar-default img, .navbar-fixed-top img{
+	display:none;
+}
 }
