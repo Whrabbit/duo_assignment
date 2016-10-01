@@ -30,7 +30,6 @@ header{
 }
 .navbar navbar-default img, .navbar-fixed-top img{
 	float:right;
-    width: 70px;
     padding: 5px 0;
 }
 /* ------------ MENUBAR ------------*/
@@ -44,7 +43,7 @@ header{
 	background-image:none;
 	background-color: #980121 !important;
     text-align:center;
-    height: 80px;
+	height: 110px;
 }
 nav.navbar.navbar-default.navbar-fixed-top{
 	background: #C6002A !important;
@@ -52,7 +51,8 @@ nav.navbar.navbar-default.navbar-fixed-top{
 
 .navbar-default .navbar-nav>li>a {
     color: #777;
-    padding-top: 30px;
+    padding-top: 45px;
+    font-size: 20px;
 }
 /* ------------ CONTENT ------------*/
 .container_header {
