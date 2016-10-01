@@ -15,7 +15,7 @@ html {
 /* Large devices (large desktops, 1200px and up) */
 @media only screen and (min-width:1200px){
 
-ul{
+ul nav navbar-nav{
 	list-style-type:none;
 }
 /* ------------ WRAPPER ------------*/
