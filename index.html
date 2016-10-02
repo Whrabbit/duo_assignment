@@ -487,6 +487,14 @@ else if(event.ctrlKey && event.shiftKey && event.keyCode==73){
 <!--
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcS3Tq6JicxuzFhygqwKcvcF7aSCxFyrk&callback=initMap"></script>
 <script src="script.js"></script>-->
+<script>
+$(function(){ 
+     var navMain = $(".navbar-ex1-collapse");
+     navMain.on("click", "a", null, function () {
+         navMain.collapse('hide');
+     });
+ });
+</script>
 </body>
 
 </html>
