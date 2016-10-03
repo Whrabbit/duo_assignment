@@ -69,8 +69,8 @@ section#vakken {
     padding-top: 100px;
     background: #fff;
 	width:1000px;
-	margin:0 auto;
-	height:100%;
+	margin: 0 auto 20px auto;
+
 }
 section#locaties {
     padding-top: 110px;
@@ -84,7 +84,7 @@ section#contact {
 	height:900px;
 }
 /* ------------ BARS ------------*/
-table.period td {
+table.period th {
     padding-right: 45px;
     padding-left: 6px;
     border: lightgrey solid 1px;
@@ -197,8 +197,7 @@ section#vakken {
     padding-top: 100px;
     background: #fff;
 	width:700px;
-	margin:0 auto;
-    height: 1450px;
+	margin: 0 auto 20px auto;
 }
 section#locaties {
     padding-top: 110px;
@@ -212,7 +211,7 @@ section#contact {
 	height:900px;
 }
 /* ------------ BARS ------------*/
-table.period td {
+table.period th {
     padding-right: 7px;
     padding-left: 6px;
     border: lightgrey solid 1px;
@@ -246,6 +245,9 @@ ul.nav-tabs{
 } 
 #wrapper .col-md-6{
 	padding:0;	
+}
+.img1, .img2, .img3{
+	display:none;
 }
 /* ------------ HEADER ------------*/
 
@@ -315,8 +317,7 @@ section#vakken {
     padding-top: 100px;
     background: #fff;
 	width:700px;
-	margin:0 auto;
-    height: 1450px;
+	margin: 0 auto 20px auto;
 }
 section#locaties {
     padding-top: 110px;
@@ -330,7 +331,7 @@ section#contact {
 	height:900px;
 }
 /* ------------ BARS ------------*/
-table.period td {
+table.period th {
     padding-right: 90px;
     padding-left: 6px;
     border: lightgrey solid 1px;
@@ -352,7 +353,6 @@ ul.nav-tabs{
     border-bottom-color: transparent;
 }
 }
-
 /* Medium devices (tablets, 768px and up) */
 @media (min-width:669px) and (max-width:767px){
 /* ------------ WRAPPER ------------*/
@@ -364,6 +364,9 @@ ul.nav-tabs{
 } 
 #wrapper .col-md-6{
 	padding:0;	
+}
+.img1, .img2, .img3{
+	display:none;
 }
 /* ------------ HEADER ------------*/
 
@@ -461,8 +464,7 @@ section#vakken {
     padding-top: 100px;
     background: #fff;
 	width:700px;
-	margin:0 auto;
-    height: 1450px;
+	margin: 0 auto 20px auto;
 }
 section#locaties {
     padding-top: 110px;
@@ -473,11 +475,11 @@ section#contact {
     background: #fff;
 	width:700px;
 	margin:0 auto;
-	height:900px;
+	height:530px;
 }
 /* ------------ BARS ------------*/
  
-table.period td {
+table.period th {
     padding-right: 90px;
     padding-left: 6px;
     border: lightgrey solid 1px;
@@ -503,7 +505,6 @@ ul.nav-tabs{
     border-bottom-color: transparent;
 }
 }
-
 /* Small devices (phones, 768px and up) iphone 6 landscape*/
 @media(max-width:668px) and (orientation : landscape){
 /* ------------ HEADER ------------*/
@@ -523,6 +524,9 @@ header{
     font-size: 20px;
     text-transform: uppercase;
 }
+.img1, .img2, .img3{
+	display:none;
+}
 /* ------------ MENUBAR ------------*/
 .navbar-default .navbar-toggle{
 	border:none;
@@ -535,7 +539,7 @@ header{
 	background-color: #C6002A !important;
 	color:white !important;
 	text-align:center;
-    padding: 10px 13px 10px 12px !important;
+    padding: 10px 29px 10px 29px !important;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
 	background-image:none;
@@ -591,8 +595,7 @@ section#home {
 section#vakken {
     background: #fff;
 	padding:60px 15px 0 15px;
-	margin:0 auto;
-    height: 1450px;
+	margin: 0 auto 20px auto;
 }
 section#locaties {
     padding-top: 50px;
@@ -602,7 +605,7 @@ section#contact {
     background: #fff;
 	padding:60px 15px 0 15px;
 	margin:0 auto;
-	height:900px;
+	height:350px;
 }
 /* ------------ BARS ------------*/
 .progress{
@@ -611,8 +614,8 @@ section#contact {
 ul.nav-tabs{
 	border:none;
 }
-table.period td {
-    padding-right: 12px;
+table.period th {
+	padding-right: 45px;
     padding-left: 6px;
     border: lightgrey solid 1px;
 }
@@ -653,6 +656,9 @@ header{
     float: left;
     font-size: 20px;
     text-transform: uppercase;
+}
+.img1, .img2, .img3{
+	display:none;
 }
 /* ------------ MENUBAR ------------*/
 .navbar-default .navbar-toggle{
@@ -722,8 +728,7 @@ section#home {
 section#vakken {
     background: #fff;
 	padding:60px 15px 0 15px;
-	margin:0 auto;
-    height: 1450px;
+	margin: 0 auto 20px auto;
 }
 section#locaties {
     padding-top: 50px;
@@ -733,7 +738,7 @@ section#contact {
     background: #fff;
 	padding:60px 15px 0 15px;
 	margin:0 auto;
-	height:900px;
+	height:530px;
 }
 /* ------------ BARS ------------*/
 .progress{
@@ -743,7 +748,7 @@ ul.nav-tabs{
 	border:none;
 
 }
-table.period td {
+table.period th {
     padding-right: 6px;
     padding-left: 3px;
     border: lightgrey solid 1px;
