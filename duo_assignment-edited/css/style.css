@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+/*body {
+    width: 100%;
+    height: 100%;
+	font-family:Arial;
+	background:url(../img/background.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment: fixed;
+} */
+
+html {
+    width: 100%;
+    height: 100%;
+}
+h1,h2,h3{
+	color: #C6002A !important;
+}
+
+/* ------------ BARS ------------*/
+table.period {
+    margin: 10px 0px;
+}
+.col-md-2 td {
+    padding: 10px;
+}
+.progress-bar.empty {
+    background: none;
+	border: none;
+	box-shadow: none;
+}
+
+/* ------------ Barrier ------------*/
+.img1, .img2, .img3{
+	position: relative;
+	opacity: 1.0;
+	background-attachment: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.img1 {
+	background-image:url(../img/BarrierTotal.png);
+	height:100px;
+}
+.img2 {
+	background-image:url(../img/BarrierTotal.png);
+	height:100px;
+}
+.img3 {
+	background-image:url(../img/BarrierTotal.png);
+	height:100px;
+}
+
+/*------------- MAPS ------------*/
+.Map {
+    position: relative;
+    opacity: 1.0;
+    background-attachment: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Map {
+	background-image:url(../img/maps.png);
+	height:481px;
+}
+/* ------------ FOOTER ------------*/
+footer{
+	text-align:center;	
+	background:black;
+	color:white;
+	padding:10px 0px;
+}
