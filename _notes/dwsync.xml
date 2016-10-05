@@ -5,6 +5,7 @@
 <file name="index.html" server="159.253.0.77" local="131197353717767812" remote="131197355400000000" Dst="2" />
 <file name="index.html" server="159.253.0.77/public_html/" local="131197944018417512" remote="131197944000000000" Dst="2" />
 <file name="index.html" server="159.253.0.77//public_html/" local="131197353717767812" remote="131197356000000000" Dst="2" />
-<file name="index.html" server="159.253.0.77/domains/duo.whrabbit.com/public_html/" local="131200022169249703" remote="131200003200000000" Dst="2" />
-<file name="backup.css" server="159.253.0.77/domains/duo.whrabbit.com/public_html/" local="131200022168223903" remote="131198296800000000" Dst="2" />
+<file name="index.html" server="159.253.0.77/domains/duo.whrabbit.com/public_html/" local="131201305762440382" remote="131201305800000000" Dst="2" />
+<file name="backup.css" server="159.253.0.77/domains/duo.whrabbit.com/public_html/" local="131200022168223903" remote="131200756200000000" Dst="2" />
+<file name=".gitignore" server="159.253.0.77/domains/duo.whrabbit.com/public_html/" local="131200021972457303" remote="131200756200000000" Dst="2" />
 </dwsync>

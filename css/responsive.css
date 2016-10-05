@@ -7,12 +7,7 @@
 ul nav navbar-nav{
 	list-style-type:none;
 }
-/* ------------ WRAPPER ------------*/
-#wrapper{
-	width:1000px;
-	margin:10px auto;
-	height:400px;
-}
+
 /* ------------ HEADER ------------*/
 header{
 	width:1000px;
@@ -58,18 +53,20 @@ nav.navbar.navbar-default.navbar-fixed-top{
 
 .container{
     width: 100% !important;	
+	height: 725px;
 }
 section#home {
     padding-top: 120px;
-    background: #fff;
-	width:1000px;
+	margin:0 auto;
+	height:900px;
+}
+section#opleiding {
+    padding-top: 100px;
 	margin:0 auto;
 }
 section#vakken {
-    padding-top: 100px;
-    background: #fff;
-	width:1000px;
-	margin: 0 auto 20px auto;
+	padding-top: 100px;
+	margin: 0 auto 0px auto;
 
 }
 section#locaties {
@@ -78,16 +75,14 @@ section#locaties {
 }
 section#contact {
     padding-top: 120px;
-    background: #fff;
-	width:1000px;
 	margin:0 auto;
 	height:900px;
 }
 /* ------------ BARS ------------*/
 table.period th {
-    padding-right: 45px;
     padding-left: 6px;
     border: lightgrey solid 1px;
+	width: 103px;
 }
 .progress-label {
     float: left;
@@ -117,16 +112,10 @@ div#leerjaar4{
 }
 }
 /* Medium devices (tablets, 992px and up) */
-@media (min-width:993px) and (max-width:1199px){
-/* ------------ WRAPPER ------------*/
-#wrapper{
-	width:700px;
-	margin:10px auto;
-	height:400px;
-
-} 
-#wrapper .col-md-6{
-	padding:0;	
+@media (min-width:993px) and (max-width:1199px) and (orientation : landscape){
+/* ------------ SEPERATOR ------------*/
+.none img, .grey_reversed img, .grey img{
+	display:none;
 }
 /* ------------ HEADER ------------*/
 
@@ -189,15 +178,15 @@ background-color: #C6002A;
 }
 section#home {
     padding-top: 120px;
-    background: #fff;
-	width:700px;
 	margin:0 auto;
+}
+section#opleiding {
+    padding-top: 100px;
+	margin: 0 auto 0px auto;
 }
 section#vakken {
     padding-top: 100px;
-    background: #fff;
-	width:700px;
-	margin: 0 auto 20px auto;
+	margin: 0 auto 0px auto;
 }
 section#locaties {
     padding-top: 110px;
@@ -205,16 +194,21 @@ section#locaties {
 }
 section#contact {
     padding-top: 120px;
-    background: #fff;
-	width:700px;
 	margin:0 auto;
 	height:900px;
 }
 /* ------------ BARS ------------*/
 table.period th {
-    padding-right: 7px;
-    padding-left: 6px;
+    padding-right: 6px;
+    padding-left: 4px;
     border: lightgrey solid 1px;
+    font-size: 11px;
+}
+.tab-content {
+    width: 550px;
+}
+p.progress-label {
+    font-size: 11px;
 }
 ul.nav-tabs{
 	border:none;
@@ -236,17 +230,9 @@ ul.nav-tabs{
 
 }
 /* Medium devices (tablets, 992px and up) */
-@media (min-width:768px) and (max-width:992px){
-/* ------------ WRAPPER ------------*/
-#wrapper{
-	width:700px;
-	margin:10px auto;
-	height:400px;
-} 
-#wrapper .col-md-6{
-	padding:0;	
-}
-.img1, .img2, .img3{
+@media (min-width:768px) and (max-width:992px) and (orientation : portrait){
+/* ------------ SEPERATOR ------------*/
+.none img, .grey_reversed img, .grey img{
 	display:none;
 }
 /* ------------ HEADER ------------*/
@@ -309,15 +295,15 @@ background-color: #C6002A;
 }
 section#home {
     padding-top: 120px;
-    background: #fff;
-	width:700px;
 	margin:0 auto;
 }
 section#vakken {
     padding-top: 100px;
-    background: #fff;
-	width:700px;
-	margin: 0 auto 20px auto;
+	margin: 0 auto 0px auto;
+}
+section#opleiding {
+    padding-top: 100px;
+	margin: 0 auto 0px auto;
 }
 section#locaties {
     padding-top: 110px;
@@ -325,8 +311,113 @@ section#locaties {
 }
 section#contact {
     padding-top: 120px;
-    background: #fff;
-	width:700px;
+	margin:0 auto;
+	height:900px;
+}
+/* ------------ BARS ------------*/
+table.period th {
+    padding-right: 83px;
+    padding-left: 6px;
+    border: lightgrey solid 1px;
+}
+ul.nav-tabs{
+	border:none;
+}
+.empty{
+	display:none;
+}
+.border{
+	border:solid 2px #ccc;	
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	color: #555;
+    cursor: default;
+    background-color: #980121 !important;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+}
+@media (min-width:768px) and (max-width:992px) and (orientation : landscape){
+/* ------------ SEPERATOR ------------*/
+.none img, .grey_reversed img, .grey img{
+	display:none;
+}
+/* ------------ HEADER ------------*/
+
+.navbar navbar-default img, .navbar-fixed-top img{
+	float:right;
+    padding: 5px 0;
+}
+.container_header {
+    margin-right: auto;
+    margin-left: auto;
+}
+header{
+	margin:10px auto;
+}
+.avans{
+	display:none;	
+}
+/* ------------ MENUBAR ------------*/
+.nav>li>a{
+	background-color: #C6002A !important;
+    width: 100px;
+	color:white !important;
+	text-align:center;
+    padding: 10px 0px 10px 0px !important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
+	background-image:none;
+	background-color: #980121 !important;
+    text-align:center;
+	height: 110px;
+}
+nav.navbar.navbar-default.navbar-fixed-top{
+	background: #C6002A !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+    padding-top: 45px !important;
+    font-size: 20px;
+    height: 110px;
+}
+.navbar {
+	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+	transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+	padding: 0;
+}
+.navbar-header.page-scroll {
+background-color: #C6002A;
+} 
+
+/* ------------ CONTENT ------------*/
+
+.container{
+    width: 100% !important;	
+}
+section#home {
+    padding-top: 120px;
+	margin:0 auto;
+}
+section#opleiding {
+	padding-top: 100px;
+	margin: 0 auto 0px auto;
+}
+section#vakken {
+    padding-top: 100px;
+	margin: 0 auto 0px auto;
+}
+section#locaties {
+    padding-top: 110px;
+	margin:0 auto;
+}
+section#contact {
+    padding-top: 120px;
 	margin:0 auto;
 	height:900px;
 }
@@ -355,17 +446,8 @@ ul.nav-tabs{
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width:669px) and (max-width:767px){
-/* ------------ WRAPPER ------------*/
-#wrapper{
-	width:700px;
-	margin:10px auto;
-	height:400px;
-
-} 
-#wrapper .col-md-6{
-	padding:0;	
-}
-.img1, .img2, .img3{
+/* ------------ SEPERATOR ------------*/
+.none img, .grey_reversed img, .grey img{
 	display:none;
 }
 /* ------------ HEADER ------------*/
@@ -453,18 +535,19 @@ display:none;
 
 .container{
     width: 100% !important;	
+	height: 725px !important;
 }
 section#home {
     padding-top: 120px;
-    background: #fff;
-	width:700px;
 	margin:0 auto;
+}
+section#opleiding {
+    padding-top: 100px;
+	margin: 0 auto 0px auto;
 }
 section#vakken {
     padding-top: 100px;
-    background: #fff;
-	width:700px;
-	margin: 0 auto 20px auto;
+	margin: 0 auto 0px auto;
 }
 section#locaties {
     padding-top: 110px;
@@ -472,15 +555,13 @@ section#locaties {
 }
 section#contact {
     padding-top: 120px;
-    background: #fff;
-	width:700px;
 	margin:0 auto;
 	height:530px;
 }
 /* ------------ BARS ------------*/
  
 table.period th {
-    padding-right: 90px;
+    padding-right: 83px;
     padding-left: 6px;
     border: lightgrey solid 1px;
 }
@@ -507,6 +588,10 @@ ul.nav-tabs{
 }
 /* Small devices (phones, 768px and up) iphone 6 landscape*/
 @media(max-width:668px) and (orientation : landscape){
+/* ------------ SEPERATOR ------------*/
+.none img, .grey_reversed img, .grey img{
+	display:none;
+}
 /* ------------ HEADER ------------*/
 .container_header {
     margin-right: auto;
@@ -524,9 +609,7 @@ header{
     font-size: 20px;
     text-transform: uppercase;
 }
-.img1, .img2, .img3{
-	display:none;
-}
+
 /* ------------ MENUBAR ------------*/
 .navbar-default .navbar-toggle{
 	border:none;
@@ -588,21 +671,22 @@ nav.navbar.navbar-default.navbar-fixed-top{
 	padding-bottom: 15px;
 }
 section#home {
-    background: #fff;
 	padding:60px 15px 0 15px;
 	margin:0 auto;
 }
-section#vakken {
-    background: #fff;
+section#opleiding {
 	padding:60px 15px 0 15px;
-	margin: 0 auto 20px auto;
+	margin: 0 auto 0px auto;
+}
+section#vakken {
+	padding:60px 15px 0 15px;
+	margin: 0 auto 0px auto;
 }
 section#locaties {
     padding-top: 50px;
 	margin:0 auto;
 }
 section#contact {
-    background: #fff;
 	padding:60px 15px 0 15px;
 	margin:0 auto;
 	height:350px;
@@ -639,6 +723,10 @@ ul.nav-tabs{
 }
 /* Small devices (phones, 668px and up) iphone 6 portrait*/
 @media(max-width:668px) and (orientation : portrait){
+/* ------------ SEPERATOR ------------*/
+.none img, .grey_reversed img, .grey img{
+	display:none;
+}
 /* ------------ HEADER ------------*/
 .container_header {
     margin-right: auto;
@@ -657,9 +745,7 @@ header{
     font-size: 20px;
     text-transform: uppercase;
 }
-.img1, .img2, .img3{
-	display:none;
-}
+
 /* ------------ MENUBAR ------------*/
 .navbar-default .navbar-toggle{
 	border:none;
@@ -672,8 +758,8 @@ header{
 	background-color: #C6002A !important;
 	color:white !important;
 	text-align:center;
-	padding: 10px 13px 10px 13px !important;
-    font-size: 12px;
+    padding: 10px 10px 10px 10px !important;
+    font-size: 10px;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
 	background-image:none;
@@ -721,21 +807,22 @@ nav.navbar.navbar-default.navbar-fixed-top{
 	padding-bottom: 15px;
 }
 section#home {
-    background: #fff;
 	padding:60px 15px 0 15px;
 	margin:0 auto;
 }
-section#vakken {
-    background: #fff;
+section#opleiding {
 	padding:60px 15px 0 15px;
-	margin: 0 auto 20px auto;
+	margin: 0 auto 0px auto;
+}
+section#vakken {
+	padding:60px 15px 0 15px;
+	margin: 0 auto 0px auto;
 }
 section#locaties {
     padding-top: 50px;
 	margin:0 auto;
 }
 section#contact {
-    background: #fff;
 	padding:60px 15px 0 15px;
 	margin:0 auto;
 	height:530px;
@@ -749,9 +836,10 @@ ul.nav-tabs{
 
 }
 table.period th {
-    padding-right: 6px;
-    padding-left: 3px;
+    padding-right: 1px;
+    padding-left: 1px;
     border: lightgrey solid 1px;
+    font-size: 13px;
 }
 ul.nav-tabs{
 	border:none;
