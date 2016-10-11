@@ -9,6 +9,9 @@ html {
     width: 100%;
     height: 100%;
 }
+.white{
+	color: #fff !important;
+}
 h1,h2,h3{
 	color: #C6002A !important;
 }
@@ -24,26 +27,15 @@ ul{
 	border-color:transparent !important;	
 }
 section#home{
-    background: #f7f7f7;	
+    background:url(../img/bg.png);
+	background-size:cover;
 }
-.grey {
-    background: #f7f7f7;
-    height: 50px;
-}
+section#opleiding{	
 
-.grey_reversed {
-    height: 50px;
-	padding:50px 0px;
-}
-.grey img,.grey_reversed img {
-    width: 100%;
-}
-.col-md-6.space{
-	padding-top:200px;	
-	text-align:center;
 }
 section#vakken{
-    background: #f7f7f7;	
+    background: #f7f7f7;
+
 }
 section#locaties .row{
     background: #fff;	
@@ -51,12 +43,31 @@ section#locaties .row{
 section#contact{
     background: #f7f7f7;	
 }
+.center{
+	text-align: center;	
+}
+.col-md-6.space{
+	padding-top:200px;	
+	text-align:center;
+}
+img.right{
+	float:right;	
+	padding:5px 0;
+}
+.parallax { 
+    background-image:url(../img/bg.jpg);
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img.full-width{
+	width:100%;	
+}
 /* ------------ SEPERATOR ------------*/
-.img {
-	background-image:url('../img/BarrierTotal.png');
-	height:100px;
-	background-position: center;
-	background-repeat: no-repeat;
+img.none {
+    width: 100%;
 }
 /* ------------ BARS ------------*/
 table.period {
